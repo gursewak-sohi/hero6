@@ -1,0 +1,33 @@
+// Animation SCSS
+@include keyframes(fadeIn) {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@include keyframes(shine) {
+    100% {
+        transform: rotateZ(60deg) translate(1em, -9em);
+        left: 150%
+    }
+}
+ 
+ 
+@include keyframes(rotate) {
+    0% {
+        transform:rotate(0deg)
+      }
+    50% {
+    transform:rotate(180deg)
+    }
+    to {
+    transform:rotate(1turn)
+    }
+}
+
+
